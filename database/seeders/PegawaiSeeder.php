@@ -32,7 +32,7 @@ class PegawaiSeeder extends Seeder
                 'namaPegawai' => 'Rahmawati',
                 'jenisKelamin' => 'Perempuan',
                 'alamat' => 'Malang',
-                'noTelp' => '081443556021'
+                'noTelp' => '081443556345'
             ]
         ];
         DB::table('pegawais')->insert($data);
