@@ -19,7 +19,7 @@
                     <thead>
                             <th>Id</th>
                             <th>Nama</th>
-                            <th>Jenis Kelamin</th>
+                            <th>Gambar</th>
                             <th>Alamat</th>
                             <th>Email</th>
                             <th>No Telepon</th>
@@ -29,7 +29,7 @@
                             <tr>
                                 <td>{{$p->id}}</td>
                                 <td>{{$p->nama}}</td>
-                                <td>{{$p->jenisKelamin}}</td>
+                                <td><img src="{{$p->jenisKelamin}}" height="25px"></td>
                                 <td>{{$p->alamat}}</td>
                                 <td>{{$p->email}}</td>
                                 <td>{{$p->noTelp}}</td>
