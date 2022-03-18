@@ -23,6 +23,6 @@ class SupplierSeeder extends Seeder
                 'noTelp' => '081223445501'
             ]
         ];
-        DB::table('pegawais')->insert($data);
+        DB::table('suppliers')->insert($data);
     }
 }
