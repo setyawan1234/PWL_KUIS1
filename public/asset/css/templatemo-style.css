@@ -115,19 +115,19 @@ hr {
 
 /* 3. Welcome Header */
 .header-img {
-	background: url(../img/header-img.jpg) no-repeat center center;
+	background: url(../img/banner.jpg) no-repeat center center;
 	background-size: cover;
-	height: 540px;
+	height: 590px;
 }
 .header-img-2 {
-	background: url(../img/header-img-2.jpg) no-repeat center center;
+	background: url(../img/banner.jpg) no-repeat center center;
 	background-size: cover;
-	height: 539px;
+	height: 590px;
 }
 .header-img-3 {
-	background: url(../img/header-img-3.jpg) no-repeat center center;
+	background: url(../img/banner.jpg) no-repeat center center;
 	background-size: cover;
-	height: 520px;
+	height: 590px;
 }
 
 .welcome-container {
