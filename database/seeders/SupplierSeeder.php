@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class SupplierSeeder extends Seeder
 {
@@ -14,5 +15,14 @@ class SupplierSeeder extends Seeder
     public function run()
     {
         //
+        $data =[
+            [
+                'namaPegawai' => 'Mubarok',
+                'jenisKelamin' => 'Laki-Laki',
+                'produk' => 'Lenovo',
+                'noTelp' => '081223445501'
+            ]
+        ];
+        DB::table('pegawais')->insert($data);
     }
 }
