@@ -16,6 +16,7 @@
                     <tbody>
                         @foreach ($pelanggan as $p)
                             <tr>
+                                <td>{{$p->id}}</td>
                                 <td>{{$p->nama}}</td>
                                 <td>{{$p->jenisKelamin}}</td>
                                 <td>{{$p->alamat}}</td>
