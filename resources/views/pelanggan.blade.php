@@ -19,7 +19,7 @@
                     <thead>
                             <th>Id</th>
                             <th>Nama</th>
-                            <th>Gambar</th>
+                            <th>JenisKelamin</th>
                             <th>Alamat</th>
                             <th>Email</th>
                             <th>No Telepon</th>
