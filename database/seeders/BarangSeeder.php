@@ -22,6 +22,6 @@ class BarangSeeder extends Seeder
                 'harga' => 'Rp 18.999.999'
             ]
         ];
-        DB::table('barang')->insert($data);
+        DB::table('barangs')->insert($data);
     }
 }

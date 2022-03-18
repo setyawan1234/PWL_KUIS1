@@ -23,6 +23,6 @@ class PelangganSeeder extends Seeder
                 'noTelp' => '085018018018'
             ]
         ];
-        DB::table('pelanggan')->insert($data);
+        DB::table('pelanggans')->insert($data);
     }
 }
