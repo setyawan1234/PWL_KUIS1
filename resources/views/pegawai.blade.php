@@ -15,7 +15,7 @@
     <section>
         <div class="container tm-position-relative">
             <div class="row">
-                <table class="table">
+                <table class="table" border='1'>
                     <thead>
                             <th>Id</th>
                             <th>NamaPegawai</th>
