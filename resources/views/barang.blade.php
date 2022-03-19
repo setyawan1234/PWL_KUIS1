@@ -12,18 +12,19 @@
                 </div>
             </div>
     </section>
+    <section>
     <div class="container tm-position-relative">
         <div class="col">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div class="card">
                     <tbody>
                         @foreach ($barang as $b)
-                            <td><img src="{{$b->gambar}}" class="card-img-top" alt="..."></td>
+                            <td><img src="{{$b->gambar}}" height= "250px"></td>
                                 <div class="card-body">
-                                    <td><h5 class="card-title">{{$b->namalaptop}}</h5></td>
+                                    <td><p class="section-title">{{$b->namalaptop}}</p></td>
                                     <td><p class="card-text">{{$b->spesifikasi}}</p></td>
                                     <td><a href="#" class="btn btn-primary">{{$b->harga}}</a></td>
-                                    <td><a href="#" class="btn btn-primary">Buy</a></td>
+                                    <td><a href="#" class="btn btn-success">Buy</a></td>
                                 </div>
                         @endforeach
                     </tbody>
@@ -31,5 +32,6 @@
             </div>
         </div>
     </div>
+    </section>
 </body>
 @endsection
