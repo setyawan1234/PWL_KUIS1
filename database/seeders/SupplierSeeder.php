@@ -17,9 +17,9 @@ class SupplierSeeder extends Seeder
         //
         $data =[
             [
-                'namaSupplier' => 'Mubarok',
-                'jenisKelamin' => 'Laki-Laki',
+                'namaSupplier' => 'PT.Lenovo Indonesia',
                 'produk' => 'Lenovo',
+                'kota' => 'Surabaya',
                 'noTelp' => '081223445501'
             ]
         ];
