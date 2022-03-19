@@ -11,27 +11,30 @@
                     <p class="small">Hi-Tech Mall Website</p>
                 </div>
             </div>
-    </section>
-    <section>
-    <div class="container tm-position-relative">
-        <div class="col">
-            <div class="col-md-4">
-                <div class="card">
-                    <tbody>
-                        @foreach ($barang as $b)
-                            <td><img src="{{$b->gambar}}" height= "250px"></td>
-                                <div class="card-body">
-                                    <td><p class="section-title">{{$b->namalaptop}}</p></td>
-                                    <td><p class="card-text">{{$b->spesifikasi}}</p></td>
-                                    <td><a href="#" class="btn btn-primary">{{$b->harga}}</a></td>
-                                    <td><a href="#" class="btn btn-success">Buy</a></td>
-                                </div>
-                        @endforeach
-                    </tbody>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    @foreach ($barang as $b)
+                    <div class="col-md-4">
+                        <div class="card">
+                            
+                                
+                                    <img src="{{$b->gambar}}" height= "250px">
+                                        <div class="card-body">
+                                            <p class="section-title">{{$b->namalaptop}}</p>
+                                            <p class="card-text">{{$b->spesifikasi}}</p>
+                                            <a href="#" class="btn btn-primary">{{$b->harga}}</a>
+                                            <a href="#" class="btn btn-success">Buy</a>
+                                        </div>
+                                
+                            
+                        </div>
+                    </div>
+                    @endforeach
                 </div>
             </div>
-        </div>
-    </div>
+        </div>    
     </section>
 </body>
 @endsection
