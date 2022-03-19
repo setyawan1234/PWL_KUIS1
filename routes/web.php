@@ -24,3 +24,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'home'])->name('home');
 
 Route::get('/customer', [App\Http\Controllers\PelangganController::class, 'pelanggan'])->name('pelanggan');
+
+Route::get('/product', [App\Http\Controllers\BarangController::class, 'barang'])->name('barang');
