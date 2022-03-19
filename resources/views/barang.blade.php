@@ -16,13 +16,13 @@
             <div class="row">
                 <div class="col">
                     @foreach ($barang as $b)
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="card">
                             
                                 
-                                    <img src="{{$b->gambar}}" height= "350px">
-                                        <div class="card-body">
-                                            <p class="section-title">{{$b->namalaptop}}</p>
+                                    <img src="{{$b->gambar}}" height= "250px">
+                                        <strong><div class="card-body">
+                                            {{$b->namalaptop}}</strong>
                                             <p class="card-text">{{$b->spesifikasi}}</p>
                                             <a href="#" class="btn btn-primary">{{$b->harga}}</a>
                                             <a href="#" class="btn btn-success">Buy</a>
