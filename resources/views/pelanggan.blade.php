@@ -11,34 +11,32 @@
                     <p class="small">Hi-Tech Mall Website</p>
                 </div>
             </div>
-    </section>
-    <section>
-        <div class="container tm-position-relative">
-            <div class="row">
-                <table class="table">
-                    <thead>
-                            <th>Id</th>
-                            <th>Nama</th>
-                            <th>JenisKelamin</th>
-                            <th>Alamat</th>
-                            <th>Email</th>
-                            <th>No Telepon</th>
-                    </thead>
-                    <tbody>
-                        @foreach ($pelanggan as $p)
-                            <tr>
-                                <td>{{$p->id}}</td>
-                                <td>{{$p->nama}}</td>
-                                <td><img src="{{$p->jenisKelamin}}" height="25px"></td>
-                                <td>{{$p->alamat}}</td>
-                                <td>{{$p->email}}</td>
-                                <td>{{$p->noTelp}}</td>
-                            </tr>
-                        @endforeach
-                    </tbody>
-                </table>
+            <div class="container tm-position-relative">
+                <div class="row">
+                    <table class="table">
+                        <thead>
+                                <th>Id</th>
+                                <th>Nama</th>
+                                <th>JenisKelamin</th>
+                                <th>Alamat</th>
+                                <th>Email</th>
+                                <th>No Telepon</th>
+                        </thead>
+                        <tbody>
+                            @foreach ($pelanggan as $p)
+                                <tr>
+                                    <td>{{$p->id}}</td>
+                                    <td>{{$p->nama}}</td>
+                                    <td><img src="{{$p->jenisKelamin}}" height="25px"></td>
+                                    <td>{{$p->alamat}}</td>
+                                    <td>{{$p->email}}</td>
+                                    <td>{{$p->noTelp}}</td>
+                                </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
     </section>
 </body>
 @endsection
