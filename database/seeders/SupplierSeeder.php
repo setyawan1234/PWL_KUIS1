@@ -17,12 +17,12 @@ class SupplierSeeder extends Seeder
         //
         $data =[
             [
-                'namaPegawai' => 'Mubarok',
+                'namaSupplier' => 'Mubarok',
                 'jenisKelamin' => 'Laki-Laki',
                 'produk' => 'Lenovo',
                 'noTelp' => '081223445501'
             ]
         ];
-        DB::table('pegawais')->insert($data);
+        DB::table('suppliers')->insert($data);
     }
 }
