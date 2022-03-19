@@ -20,7 +20,7 @@
                         <div class="card">
                             
                                 
-                                    <img src="{{$b->gambar}}" height= "250px">
+                                    <img src="{{$b->gambar}}" height= "350px">
                                         <div class="card-body">
                                             <p class="section-title">{{$b->namalaptop}}</p>
                                             <p class="card-text">{{$b->spesifikasi}}</p>
