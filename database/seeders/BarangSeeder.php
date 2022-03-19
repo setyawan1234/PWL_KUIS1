@@ -29,7 +29,7 @@ class BarangSeeder extends Seeder
             ],
             [
                 'gambar' => 'https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/15/1b303828-aa2d-442f-b67a-0b9ead6d6734.jpg',
-                'namalaptop' => 'ACER PREDATOR HELIOS 300 PH315-54',
+                'namalaptop' => 'ACER PREDATOR HELIOS 300 PH315',
                 'spesifikasi' => 'GeForce RTX™ 3070 - i9-11900H 16GB - unit',
                 'harga' => 'Rp 27.599.000'
             ],
@@ -68,6 +68,24 @@ class BarangSeeder extends Seeder
                 'namalaptop' => 'ASUS TUF Dash F15 FX516PM',
                 'spesifikasi' => 'GeForce RTX™ 3060 - i7 11370 8GB 512ssd - Grey, 16gb',
                 'harga' => 'Rp 19.299.000'
+            ],
+            [
+                'gambar' => 'https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/11/a4e6cd41-eae3-43a1-a139-17f4b73b5eaf.jpg',
+                'namalaptop' => 'ASUS ROG Zephyrus M16 GU603HM',
+                'spesifikasi' => 'GeForce RTX™ 3060 - i9 11900 16GB 1TB - UNIT',
+                'harga' => 'Rp 33.499.000'
+            ],
+            [
+                'gambar' => 'https://images.tokopedia.net/img/cache/900/VqbcmM/2022/3/11/6f4f626b-4b53-4bb2-ada0-6de2c453da1e.jpg',
+                'namalaptop' => 'ASUS ROG STRIX G733QR',
+                'spesifikasi' => 'GeForce RTX™ 3070 - 300Hz R9-5900HX 32GB 1TB',
+                'harga' => 'Rp 38.999.000'
+            ],
+            [
+                'gambar' => 'https://images.tokopedia.net/img/cache/900/VqbcmM/2021/6/15/60ce8e00-d095-497f-b652-b54b2a506fbc.png',
+                'namalaptop' => 'ASUS ROG Zephyrus G14 GA401QE',
+                'spesifikasi' => 'GeForce RTX™3050Ti - Ryzen 7 5800 16GB - Grey',
+                'harga' => 'Rp 22.699.000'
             ],
         ];
         DB::table('barangs')->insert($data);
