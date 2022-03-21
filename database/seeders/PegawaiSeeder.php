@@ -17,6 +17,7 @@ class PegawaiSeeder extends Seeder
         //
         $data =[
             [
+                'fotoProfil' => 'https://kendarikota.go.id/assets/img/pejabat/istaman-sip-mm.png',
                 'namaPegawai' => 'Rozak',
                 'jenisKelamin' => 'Laki-Laki',
                 'jabatan' => 'Manajer Toko',
@@ -24,6 +25,7 @@ class PegawaiSeeder extends Seeder
                 'noTelp' => '081223445501'
             ],
             [
+                'fotoProfil' => 'https://kendarikota.go.id/assets/img/pejabat/istaman-sip-mm.png',
                 'namaPegawai' => 'Zaki',
                 'jenisKelamin' => 'Laki-Laki',
                 'jabatan' => 'Kasir',
@@ -31,6 +33,7 @@ class PegawaiSeeder extends Seeder
                 'noTelp' => '081332544000'
             ],
             [
+                'fotoProfil' => 'https://keperawatan.poltekkesgorontalo.ac.id/wp-content/uploads/2020/12/2.jpg',
                 'namaPegawai' => 'Rahmawati',
                 'jenisKelamin' => 'Perempuan',
                 'jabatan' => 'Sales',

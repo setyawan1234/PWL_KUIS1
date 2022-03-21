@@ -17,6 +17,7 @@ class SupplierSeeder extends Seeder
         //
         $data =[
             [
+                'fotoProfil' => 'https://cdn.dribbble.com/users/525700/screenshots/6344092/lenovo-logo-design_4x.png',
                 'namaSupplier' => 'PT.Lenovo Indonesia',
                 'produk' => 'Lenovo',
                 'kota' => 'Surabaya',
