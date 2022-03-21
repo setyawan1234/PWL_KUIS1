@@ -31,7 +31,13 @@
                                 <td>{{$p->id}}</td>
                                 <td><img src="{{$p->fotoProfil}}" height="30px"></td>
                                 <td>{{$p->namaPegawai}}</td>
-                                <td>{{$p->jenisKelamin}}</td>
+                                <td>
+                                    @if($p->jenisKelamin==1)
+                                        Laki-Laki
+                                    @else
+                                        Perempuan
+                                    @endif
+                                </td>
                                 <td>{{$p->jabatan}}</td>
                                 <td>{{$p->alamat}}</td>
                                 <td>{{$p->noTelp}}</td>
