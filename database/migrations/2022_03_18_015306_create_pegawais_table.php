@@ -15,6 +15,7 @@ class CreatePegawaisTable extends Migration
     {
         Schema::create('pegawais', function (Blueprint $table) {
             $table->id();
+            $table->string('fotoProfil',1000);
             $table->string('namaPegawai',100);
             $table->string('jenisKelamin',50);
             $table->string('jabatan',50);
