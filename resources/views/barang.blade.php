@@ -24,7 +24,7 @@
                                         <strong><div class="card-body">
                                             {{$b->namalaptop}}</strong>
                                             <p class="card-text">{{$b->spesifikasi}}</p>
-                                            <a href="#" class="btn btn-primary">{{$b->harga}}</a>
+                                            <a href="#" class="btn btn-primary">Rp {{number_format($b->harga)}}</a>
                                             <a href="#" class="btn btn-success">Buy</a>
                                         </div>
                                 
