@@ -15,11 +15,13 @@ class PegawaiSeeder extends Seeder
     public function run()
     {
         //
+        // 1 = laki-laki
+        // 2 = perempuan
         $data =[
             [
                 'fotoProfil' => 'https://kendarikota.go.id/assets/img/pejabat/istaman-sip-mm.png',
                 'namaPegawai' => 'Rozak',
-                'jenisKelamin' => 'Laki-Laki',
+                'jenisKelamin' => '1',
                 'jabatan' => 'Manajer Toko',
                 'alamat' => 'Mojokerto',
                 'noTelp' => '081223445501'
@@ -27,7 +29,7 @@ class PegawaiSeeder extends Seeder
             [
                 'fotoProfil' => 'https://kendarikota.go.id/assets/img/pejabat/istaman-sip-mm.png',
                 'namaPegawai' => 'Zaki',
-                'jenisKelamin' => 'Laki-Laki',
+                'jenisKelamin' => '1',
                 'jabatan' => 'Kasir',
                 'alamat' => 'Malang',
                 'noTelp' => '081332544000'
@@ -35,7 +37,7 @@ class PegawaiSeeder extends Seeder
             [
                 'fotoProfil' => 'https://keperawatan.poltekkesgorontalo.ac.id/wp-content/uploads/2020/12/2.jpg',
                 'namaPegawai' => 'Rahmawati',
-                'jenisKelamin' => 'Perempuan',
+                'jenisKelamin' => '2',
                 'jabatan' => 'Sales',
                 'alamat' => 'Malang',
                 'noTelp' => '081443556345'

@@ -17,7 +17,7 @@ class CreatePegawaisTable extends Migration
             $table->id();
             $table->string('fotoProfil',1000);
             $table->string('namaPegawai',100);
-            $table->string('jenisKelamin',50);
+            $table->boolean('jenisKelamin');
             $table->string('jabatan',50);
             $table->string('alamat',100);
             $table->string('noTelp',50);
