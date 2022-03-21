@@ -18,6 +18,7 @@
                 <table class="table" border='1'>
                     <thead>
                             <th>Id</th>
+                            <th>Foto Profil</th>
                             <th>NamaPegawai</th>
                             <th>JenisKelamin</th>
                             <th>Jabatan</th>
@@ -28,6 +29,7 @@
                         @foreach ($pegawai as $p)
                             <tr>
                                 <td>{{$p->id}}</td>
+                                <td><img rsc="{{$p->fotoProfil}}" height="15px"></td>
                                 <td>{{$p->namaPegawai}}</td>
                                 <td>{{$p->jenisKelamin}}</td>
                                 <td>{{$p->jabatan}}</td>
