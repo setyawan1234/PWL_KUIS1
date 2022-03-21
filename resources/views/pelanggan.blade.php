@@ -18,16 +18,24 @@
                                 <th>Id</th>
                                 <th>Nama</th>
                                 <th>JenisKelamin</th>
+                                <th>Avatar</th>
                                 <th>Alamat</th>
                                 <th>Email</th>
                                 <th>No Telepon</th>
                         </thead>
                         <tbody>
-                            @foreach ($pelanggan as $p)
+                            @foreach ($pelanggan as $p) 
                                 <tr>
                                     <td>{{$p->id}}</td>
                                     <td>{{$p->nama}}</td>
-                                    <td><img src="{{$p->jenisKelamin}}" height="25px"></td>
+                                    <td>
+                                        @if($p->jenisKelamin==0)
+                                            Laki-Laki
+                                        @else
+                                            Perempuan
+                                        @endif
+                                    </td>
+                                    <td><img src="{{$p->avatar}}" height="25px"></td>
                                     <td>{{$p->alamat}}</td>
                                     <td>{{$p->email}}</td>
                                     <td>{{$p->noTelp}}</td>
